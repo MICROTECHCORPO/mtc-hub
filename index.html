@@ -2,55 +2,118 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>MTC COMMAND CENTER - DANIEL LEŚNIAK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTC HOLDING - COMMAND CENTER</title>
     <style>
-        body { background: #05070a; color: #fff; font-family: sans-serif; margin: 0; padding: 20px; text-align: center; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; max-width: 1200px; margin: auto; }
-        .card { background: #111827; border: 1px solid #1f2937; border-radius: 15px; padding: 20px; transition: 0.3s; }
-        .card:hover { border-color: #38bdf8; box-shadow: 0 0 20px rgba(56, 189, 248, 0.2); }
-        h1 { color: #38bdf8; text-transform: uppercase; margin-bottom: 30px; letter-spacing: 3px; }
-        h2 { font-size: 1.1rem; color: #94a3b8; margin-top: 0; }
-        .btn { display: block; background: #38bdf8; color: #000; text-decoration: none; padding: 12px; margin: 8px 0; border-radius: 8px; font-weight: bold; font-size: 0.9rem; }
-        .btn-edit { background: #f472b6; } /* Kolor dla edytorów Base44 */
-        .btn-crypto { background: #a78bfa; } /* Kolor dla Solany */
-        .footer { margin-top: 40px; color: #475569; font-size: 0.8rem; }
+        :root {
+            --bg: #0d1117;
+            --card: #161b22;
+            --blue: #58a6ff;
+            --pink: #f472b6;
+            --gold: #d4af37;
+            --green: #238636;
+            --text: #c9d1d9;
+        }
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 { color: var(--blue); text-transform: uppercase; letter-spacing: 4px; margin-bottom: 30px; font-size: 1.5rem; text-shadow: 0 0 10px rgba(88, 166, 255, 0.3); }
+        
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .section {
+            background: var(--card);
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 20px;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .section:hover {
+            transform: translateY(-5px);
+            border-color: var(--blue);
+        }
+
+        h2 { font-size: 1.1rem; margin-top: 0; display: flex; align-items: center; border-bottom: 1px solid #30363d; padding-bottom: 10px; }
+        
+        .btn {
+            display: block;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+            font-size: 0.9rem;
+            transition: opacity 0.2s;
+        }
+        .btn:hover { opacity: 0.8; }
+
+        /* Kolory przycisków */
+        .btn-view { background: #21262d; border: 1px solid #30363d; color: var(--blue); }
+        .btn-edit { background: #238636; color: white; } /* Zielony dla edycji */
+        .btn-web { background: #30363d; color: white; }
+        .btn-crypto { background: linear-gradient(45deg, #8b5cf6, #d4af37); color: white; }
+        .btn-master { background: var(--blue); color: #0d1117; }
+
+        .tag { font-size: 0.7rem; text-transform: uppercase; background: #30363d; padding: 2px 6px; border-radius: 4px; margin-left: 10px; }
     </style>
 </head>
 <body>
 
-    <h1>MTC HOLDING - PANEL ADMINA</h1>
+    <h1>MTC HOLDING COMMAND CENTER</h1>
 
-    <div class="grid">
-        <div class="card">
-            <h2>💧 MICRO KROPELKA</h2>
-            <a href="https://mtckropelka.base44.app" target="_blank" class="btn">PODGLĄD APKI</a>
-            <a href="https://app.base44.com/apps/69e5f4aa808013dc130f5927/editor/preview" target="_blank" class="btn btn-edit">EDYTOR BASE44</a>
-            <a href="https://microkropelka-8d2f1d.webnode.page/" target="_blank" class="btn" style="background:#64748b">WEB_STRONA</a>
+    <div class="container">
+        
+        <div class="section">
+            <h2>💧 LOGISTYKA <span class="tag" style="color:var(--blue)">Kropelka</span></h2>
+            <a href="https://mtckropelka.base44.app" class="btn btn-view">Podgląd Apki (Klient)</a>
+            <a href="https://app.base44.com/apps/69e5f4aa808013dc130f5927/editor/preview" class="btn btn-edit">EDYTOR BASE44 (KROPELKA)</a>
+            <a href="https://microkropelka-8d2f1d.webnode.page/" class="btn btn-web">Strona Webnode</a>
         </div>
 
-        <div class="card">
-            <h2>🏎️ LUXURY MOBILITY</h2>
-            <a href="https://luxurymobility.base44.app" target="_blank" class="btn">PODGLĄD APKI</a>
-            <a href="https://app.base44.com/apps/69e6523b4d4702c42686da2d/editor/preview" target="_blank" class="btn btn-edit">EDYTOR BASE44</a>
-            <a href="https://luxurymobility--0e815f.webnode.page/" target="_blank" class="btn" style="background:#64748b">WEB_STRONA</a>
+        <div class="section">
+            <h2>🏎️ LUXURY <span class="tag" style="color:var(--gold)">Elite</span></h2>
+            <a href="https://luxurymobility.base44.app" class="btn btn-view">Podgląd Apki (VIP)</a>
+            <a href="https://app.base44.com/apps/69e6523b4d4702c42686da2d/editor/preview" class="btn btn-edit">EDYTOR BASE44 (LUXURY)</a>
+            <a href="https://luxurymobility--0e815f.webnode.page/" class="btn btn-web">Strona Webnode</a>
         </div>
 
-        <div class="card">
-            <h2>💰 FINANSE & TOKEN</h2>
-            <a href="https://pump.fun/coin/61fn5xkKTva5ijK1dNoJv64MyiuAokzH6jExpEPhpump" target="_blank" class="btn btn-crypto">WYKRES TOKENA</a>
-            <a href="https://pump.fun/profile/HoMdbqMhVWCMdEJRk1RKKneLNKjEDUHx59smpxoJtZCR" target="_blank" class="btn btn-crypto">PORTFEL OWNERA</a>
+        <div class="section">
+            <h2>💰 SKARBIEC <span class="tag" style="color:#a78bfa">Solana</span></h2>
+            <a href="https://pump.fun/coin/61fn5xkKTva5ijK1dNoJv64MyiuAokzH6jExpEPhpump" class="btn btn-crypto">WYKRES TOKENA MTC</a>
+            <a href="https://pump.fun/profile/HoMdbqMhVWCMdEJRk1RKKneLNKjEDUHx59smpxoJtZCR" class="btn btn-crypto">PROFIL INWESTORA (SOL)</a>
         </div>
 
-        <div class="card">
-            <h2>⚙️ ZARZĄDZANIE</h2>
-            <a href="https://www.webnode.com/my-webnode-projects/" target="_blank" class="btn" style="background:#facc15; color:#000;">EDYCJA WSZYSTKICH STRON</a>
-            <a href="https://github.com/MICROTECHCORPO/mtc-hub/tree/main/GRAFIKI_HOLDING" target="_blank" class="btn">MOJE FOLDERY .JPG</a>
+        <div class="section">
+            <h2>🏢 GRUPA & ECO <span class="tag">MTC</span></h2>
+            <a href="https://mtcgrupa--7e06de.webnode.page/" class="btn btn-web">MTC Grupa Centrala</a>
+            <a href="https://recglobaleco--7dc4aa.webnode.page/" class="btn btn-web">RecGlobalEco</a>
+            <a href="https://micromedtherapi-841fcc.webnode.page/" class="btn btn-web">MicroMedTherapi</a>
         </div>
+
+        <div class="section" style="border-color: var(--blue);">
+            <h2>⚙️ KONFIGURACJA <span class="tag" style="background:var(--blue); color:black">God Mode</span></h2>
+            <a href="https://www.webnode.com/pl/my-webnode-projects/" class="btn btn-master">MASTER EDIT (WSZYSTKIE STRONY)</a>
+            <a href="https://github.com/MICROTECHCORPO/mtc-hub" class="btn btn-view">REPOZYTORIUM GITHUB (PLIKI)</a>
+        </div>
+
     </div>
 
-    <div class="footer">
-        MTC HOLDING - SYSTEM ADMIN V1.0 | 2026<br>
-        Daniel Leśniak - God Mode: ON
+    <div style="margin-top: 40px; font-size: 0.8rem; color: #484f58;">
+        MTC HOLDING OS V1.0 | Daniel Leśniak
     </div>
 
 </body>
