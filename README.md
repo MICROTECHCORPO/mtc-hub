@@ -1,7 +1,9 @@
 🦘 MTC HOLDING - GLOBAL HUB
 The engine behind the MicroTechCorpo Ecosystem.
 
-<img width="682" height="1024" alt="606" src="https://github.com/user-attachments/assets/34e0b4b2-8137-421e-acc6-ff90b203f4a4" />
+This repository manages the integration between physical assets (Mercedes-Benz eCitan Fleet), Green Energy (Solar Hubs), and Web3 Financials (Solana/Pump.fun).
+
+" />
 
   <img width="1024" height="1536" alt="314" src="https://github.com/user-attachments/assets/a72ffced-849b-4d77-9518-b4195d6554ad" />
 https://github.com/user-attachments/assets/98c36b6b-6250-4e76-8a4c-98cffa301c1e
