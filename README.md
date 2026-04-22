@@ -5,7 +5,8 @@ This repository manages the integration between physical assets (Mercedes-Benz e
 
 " />
 
-  <img width="1024" height="1536" alt="314" src="https://github.com/user-attachments/assets/a72ffced-849b-4d77-9518-b4195d6554ad" />
+  <img width="682" height="1024" alt="606" src="https://github.com/user-attachments/assets/f1846a40-21c7-4522-9c79-f180527622bb" />
+
 https://github.com/user-attachments/assets/98c36b6b-6250-4e76-8a4c-98cffa301c1e
 
 
