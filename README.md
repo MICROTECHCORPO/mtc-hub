@@ -3,7 +3,7 @@ The engine behind the MicroTechCorpo Ecosystem.
 
 This repository manages the integration between physical assets (Mercedes-Benz eCitan Fleet), Green Energy (Solar Hubs), and Web3 Financials (Solana/Pump.fun).
   <img width="1024" height="1536" alt="314" src="https://github.com/user-attachments/assets/a72ffced-849b-4d77-9518-b4195d6554ad" />
-
+https://github.com/user-attachments/assets/98c36b6b-6250-4e76-8a4c-98cffa301c1e
 
 
 💰 Financial Layer:
@@ -29,7 +29,7 @@ https://github.com/user-attachments/assets/232933e7-4862-4f8f-af91-7be4ac514fab
 
 
 
-https://github.com/user-attachments/assets/98c36b6b-6250-4e76-8a4c-98cffa301c1e
+
 
 
 
