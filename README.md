@@ -5,7 +5,7 @@ This repository manages the integration between physical assets (Mercedes-Benz e
   <img width="1024" height="1536" alt="314" src="https://github.com/user-attachments/assets/a72ffced-849b-4d77-9518-b4195d6554ad" />
 
 
-https://github.com/user-attachments/assets/209ce659-049e-49d6-8173-21bbc82bbb78
+
 💰 Financial Layer:
 SOL Vault: HoMdbqMhVWCMdEJRk1RKKneLNKjEDUHx59smpxoJtZCR
 
