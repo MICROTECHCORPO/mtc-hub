@@ -1,10 +1,26 @@
-<img width="1024" height="1536" alt="314" src="https://github.com/user-attachments/assets/a72ffced-849b-4d77-9518-b4195d6554ad" />
+🦘 MTC HOLDING - GLOBAL HUB
+The engine behind the MicroTechCorpo Ecosystem.
+
+This repository manages the integration between physical assets (Mercedes-Benz eCitan Fleet), Green Energy (Solar Hubs), and Web3 Financials (Solana/Pump.fun).
+  <img width="1024" height="1536" alt="314" src="https://github.com/user-attachments/assets/a72ffced-849b-4d77-9518-b4195d6554ad" />
 
 
 https://github.com/user-attachments/assets/209ce659-049e-49d6-8173-21bbc82bbb78
+💰 Financial Layer:
+SOL Vault: HoMdbqMhVWCMdEJRk1RKKneLNKjEDUHx59smpxoJtZCR
 
+Token: 61fn5xkKTva5ijK1dNoJv64MyiuAokzH6jExpEPhpump
 
+Designed and Managed by Daniel Leśniak.
 
+🚀 Connected Services:
+Logistics: Srebrzysta Kropelka (Water Delivery)
+
+Health: MicroMedTherapi (E-Pharmacy)
+
+Eco: RecGlobalEco (Industrial Recycling)
+
+Luxury: LuxuryMobility (Assets & VIP)
 
 
 
