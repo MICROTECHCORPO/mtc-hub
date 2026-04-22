@@ -15,6 +15,9 @@ SOL Vault: HoMdbqMhVWCMdEJRk1RKKneLNKjEDUHx59smpxoJtZCR
 
 Token: 61fn5xkKTva5ijK1dNoJv64MyiuAokzH6jExpEPhpump
 
+
+<img width="2816" height="1536" alt="523" src="https://github.com/user-attachments/assets/b4f0cf96-e4fa-4674-96aa-486cbb7c0587" />
+
 Designed and Managed by Daniel Leśniak.
 
 🚀 Connected Services:
